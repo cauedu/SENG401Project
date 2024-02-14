@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiceBox</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <div class="frame">
+        <h1 class="header">DiceBox</h1>
+        <button class="button" id="buttonRetrieve">Retrieve Entries</button>
+        <button class="button" id="buttonAdd">Add Entries</button>
+        <!--<p class="retrieve">Retrieve Entries</p>
+        <p class="add">Add Entry</p>-->
+    </div>
+    
+    <script>
+        document.getElementById("buttonAdd").addEventListener("click", function() {
+            window.open("form.html", "_blank", "width=900,height=600");
+        });
+        document.getElementById("buttonRetrieve").addEventListener("click", function() {
+            window.open("players.html", "_blank", "width=900,height=600");
+        });
+    </script>
+</body>
+</html>

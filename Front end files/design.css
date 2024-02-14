@@ -1,0 +1,162 @@
+/* Frame 1 */
+.frame{
+position: relative;
+width: 900px;
+height: 600px;
+
+background: linear-gradient(0deg, rgba(165, 51, 255, 0.13), rgba(165, 51, 255, 0.13)), rgba(0, 0, 0, 0.85);
+}
+
+/* Button */
+.button {
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    background: #E4E3E3;
+    border-radius: 1000px;
+    font-size: 18px;
+    color: #8B00CD; /* text color */
+}
+
+#buttonRetrieve {
+    left: 181px;
+    top: 280px;
+}
+
+#buttonAdd {
+    left: 602px;
+    top: 280px;
+}
+
+/* DiceBox */
+.dice-box {
+    position: absolute;
+    width: 190px;
+    height: 41.67px;
+    left: 50%;
+    transform: translate(-50%);
+    top: 49px;
+    text-align: center;
+}
+
+/* Header 1 */
+.header {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+    color: #D06CFF;
+    text-align: center;
+
+}
+
+/* Retrieve entries */
+.retrieve{
+position: absolute;
+width: 74px;
+height: 32px;
+left: 204px;
+top: 294px;
+
+font-family: 'Droid Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 16px;
+/* or 89% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #8B00CD;
+}
+
+
+/* Add entry */
+.addEntry{
+position: absolute;
+width: 47px;
+height: 32px;
+left: 638px;
+top: 292px;
+
+font-family: 'Droid Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 16px;
+/* or 89% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #8B00CD;
+}
+
+/* Form Title */
+.form-container h2 {
+    font-family: 'Droid Sans';
+    font-size: 28px;
+    color: #dcb0f1; 
+    text-align: center;
+}
+
+/* Form Labels */
+label {
+    font-family: 'Droid Sans';
+    font-size: 18px;
+    color: #df9aff; 
+}
+
+/* Form Submit Button */
+input[type="submit"] {
+    font-family: 'Droid Sans';
+    font-size: 18px;
+    color: #000000; /* text color */
+    background-color: #df9aff; /* button color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #d400ff; /*hover color */
+}
+
+/* User Table */
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+    border: 1px solid #D06CFF;
+    padding: 10px;
+    text-align: left;
+}
+
+.user-table th {
+    background-color: #8B00CD;
+    color: #fff;
+}
+
+.user-table td {
+    background-color: #df9aff; 
+}
+
+/* Player Header */
+.playerHeader {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+    color: #edd5f8;
+    text-align: center;
+
+}
